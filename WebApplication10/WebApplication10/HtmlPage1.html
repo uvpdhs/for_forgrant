@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <script async src="JavaScript1.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <div class="row col-12">
+            <div class="col-1"></div>
+            <div class="navbar navbar-expand-lg"id="navbar">
+                <h3>Select currency to exchange:</h3>
+                <ul class="navbar-nav mr-auto justify-content-left" id="menu">
+                    <li class="nav-item dropdown justify-content-left">
+                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown">USD</a>
+                        <div class="dropdown-menu" id="idItem" aria-labelledby="navbarDropdown">
+                            <a href="#" class="dropdown-item text-muted">EUR</a>
+                            <a href="#" class="dropdown-item text-muted">RUB</a>
+                            <a href="#" class="dropdown-item text-muted">GBR</a>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row col-12" id="section">
+            <div class="col-1"></div>
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-11">
+
+                        <div class="card  text-center " id="card1">
+
+
+                            <h5 class="card-title ">Ethereum</h5>
+
+                            <div class="margin"></div>
+                            <div class=" container-fluid content">
+                                <div class="row">
+                                    <p class="leftstr">Price:</p>
+                                    <p class="rightstr">$<span id="container1"></span></p>
+                                </div>
+                                <div class="row">
+                                    <p class="leftstr"><small>Percent change</small></p>
+                                    <p class="rightstr">
+
+                                        <input type="radio" name="bla1" value="bla1" id="bla1" onclick="clickRadio(this)" />
+                                        <label for="bla1" class="bla1"></label>
+                                    </p>
+                                </div>
+                                <div class="row">
+                                    <p class="leftstr text-muted"><small>Hour change</small></p>
+                                    <p class="rightstr">
+                                        <span class="text-success" id="container2">+266%</span>
+                                    </p>
+                                </div>
+                                <div class="row">
+                                    <p class="leftstr text-muted"><small>Day change</small></p>
+                                    <p class="rightstr">
+                                        <span class="text-success" id="container3">+266%</span>
+                                    </p>
+                                </div>
+                                <div class="row">
+                                    <p class="leftstr text-muted"><small>Week change</small></p>
+                                    <p class="rightstr">
+                                        <span class="text-success" id="container4">+266%</span>
+                                    </p>
+                                </div>
+                                <div class="row">
+                                    <p class="leftstr text-muted"><small>Month change</small></p>
+                                    <p class="rightstr">
+                                        <span class="text-success" id="container5">+266%</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-11">
+
+                        <div class="card  text-center " id="card2">
+
+
+                            <h5 class="card-title ">Liteicon</h5>
+
+                            <div class="margin"></div>
+                            <div class=" container-fluid content">
+                                <div class="row">
+                                    <p class="leftstr">Price:</p>
+                                    <p class="rightstr">$<span id="container6"></span></p>
+                                </div>
+                                <div class="row">
+                                    <p class="leftstr"><small>Percent change</small></p>
+                                    <p class="rightstr">
+
+                                        <input type="radio" name="bla2" value="bla2" id="bla2" onclick="clickRadio2(this)" />
+                                        <label for="bla2" class="bla1"></label>
+                                    </p>
+                                </div>
+                                <div class="row">
+                                    <p class="leftstr text-muted"><small>Hour change</small></p>
+                                    <p class="rightstr">
+                                        <span class="text-success" id="container7">+266%</span>
+                                    </p>
+                                </div>
+                                <div class="row">
+                                    <p class="leftstr text-muted"><small>Day change</small></p>
+                                    <p class="rightstr">
+                                        <span class="text-success" id="container8">+266%</span>
+                                    </p>
+                                </div>
+                                <div class="row">
+                                    <p class="leftstr text-muted"><small>Week change</small></p>
+                                    <p class="rightstr">
+                                        <span class="text-success" id="container9">+266%</span>
+                                    </p>
+                                </div>
+                                <div class="row">
+                                    <p class="leftstr text-muted"><small>Month change</small></p>
+                                    <p class="rightstr">
+                                        <span class="text-success" id="container10">+266%</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-11">
+                        <div class="card text-center " id="card3">
+
+
+                            <h5 class="card-title ">Bitcoin</h5>
+
+                            <div class="margin"></div>
+                            <div class=" container-fluid content">
+                                <div class="row">
+                                    <p class="leftstr">Price:</p>
+                                    <p class="rightstr">$<span id="container11"></span></p>
+                                </div>
+                                <div class="row">
+                                    <p class="leftstr"><small>Percent change</small></p>
+                                    <p class="rightstr">
+
+                                        <input type="radio" name="bla3" value="bla3" id="bla3" onclick="clickRadio1(this)" />
+                                        <label for="bla3" class="bla1"></label>
+                                    </p>
+                                </div>
+                                <div class="row">
+                                    <p class="leftstr text-muted"><small>Hour change</small></p>
+                                    <p class="rightstr">
+                                        <span class="text-success" id="container12">+266%</span>
+                                    </p>
+                                </div>
+                                <div class="row">
+                                    <p class="leftstr text-muted"><small>Day change</small></p>
+                                    <p class="rightstr">
+                                        <span class="text-success" id="container13">+266%</span>
+                                    </p>
+                                </div>
+                                <div class="row">
+                                    <p class="leftstr text-muted"><small>Week change</small></p>
+                                    <p class="rightstr">
+                                        <span class="text-success" id="container14">+266%</span>
+                                    </p>
+                                </div>
+                                <div class="row">
+                                    <p class="leftstr text-muted"><small>Month change</small></p>
+                                    <p class="rightstr">
+                                        <span class="text-success" id="container15">+266%</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+            </div>
+
+            <div class="col-1"></div>
+        </div>
+                </div>
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
